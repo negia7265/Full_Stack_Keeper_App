@@ -1,0 +1,143 @@
+body{
+  font-family:"McLaren",cursive;
+}
+.App {
+  text-align: center;
+}
+body {
+  background: #eee;
+  padding: 0 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Header h1{
+  font-family:"McLaren",cursive;
+    color:white;
+    background-color: #f5ba13;
+    padding: 16px 32px;
+    margin:0;
+    text-align: center;
+}
+.Note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  max-width:300px;
+  min-width: 100px;
+  height:auto;
+  margin: 16px;
+  float: left;
+ 
+  word-break: break-all;
+}
+.Note h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.Note p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.textarea1{
+  box-sizing: border-box;
+  font-family:"McLaren",cursive;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width:500px;
+  overflow:hidden;
+  max-height: 500px;
+  margin: 16px;
+  float: left;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.form-control{
+  border:none;
+  outline:none;
+  width:100%;
+  max-height:200px ;
+}
+textarea::placeholder {
+font-family:"McLaren",cursive;
+font-size: 20px;
+}
+input[type=text], textarea {
+  font-family:"McLaren",cursive;
+  font-size: 20px;
+  }
+  .title{
+  border:none;
+  outline:none;
+  margin-bottom: 10px;
+  font-family:"McLaren",cursive;
+  font-size: 20px;
+  word-wrap: break-word;
+  }
+  .Note button{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  }
+  .textarea1 button{
+  position: relative;
+  right: -455px;
+  bottom: -10px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+  }
+ 
+ 
